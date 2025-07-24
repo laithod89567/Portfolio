@@ -30,7 +30,7 @@ header {
     padding: 10px;
     border-bottom: var(--light) solid 2px;
     align-items: center;
-    position: fixed;   
+    position: fixed;
     flex-wrap: wrap;
     width: 100vw;
     z-index: 999;
@@ -41,7 +41,7 @@ nav {
     display: flex;
     background-color: var(--light);
     padding: 10px;
-    width: 300px;   
+    width: 300px;
     border-radius: 10px;
     justify-content: space-evenly;
 }
@@ -68,10 +68,10 @@ nav a {
     flex-direction: column;
     justify-content: center;
     height: 93vh;
-    background-size:cover;
+    background-size: cover;
     padding-left: 100px;
     background-repeat: no-repeat;
-} 
+}
 
 .whoamI {
     font-size: 20px;
@@ -90,11 +90,11 @@ nav a {
     font-size: 40px;
     color: var(--primary);
     font-weight: 800;
-    font-family: "Roboto", sans-serif;  
+    font-family: "Roboto", sans-serif;
     transition: all 0.2s ease-in-out;
 }
 
-.s0 {   
+.s0 {
     --dark: #3a1078bd;
     color: rgb(39, 163, 204);
     background-color: var(--dark);
@@ -104,7 +104,7 @@ nav a {
 
 .s1 {
     font-style: italic;
-    color: var(--medium);   
+    color: var(--medium);
 }
 
 .view-work {
@@ -115,16 +115,16 @@ nav a {
     width: fit-content;
     margin-bottom: 50px;
     border-radius: 20px;
-    transition:  0.2s ease;
+    transition: 0.2s ease;
     font-weight: 600;
     border: var(--dark) solid 2px;
 }
 
 .view-work:hover {
-   transform: scale(1.1);
-   background-color: var(--primary);
-   color: black;
-   border: 2px solid transparent;
+    transform: scale(1.1);
+    background-color: var(--primary);
+    color: black;
+    border: 2px solid transparent;
 }
 
 .SocialAccounts_icons1 {
@@ -148,14 +148,14 @@ nav a {
 }
 
 .SocialAccounts_icons1 .fa-youtube:hover {
-    color:#ff0000;
+    color: #ff0000;
     transform: scale(1.2);
     border: 2px solid transparent;
     background-color: var(--primary);
 }
 
 .SocialAccounts_icons1 .fa-square-reddit:hover {
-    color:#FF5700;
+    color: #FF5700;
     background-color: var(--primary);
     transform: scale(1.2);
     border: 2px solid transparent;
@@ -191,14 +191,14 @@ h2 {
     font-style: normal;
     font-family: "Roboto", sans-serif;
     text-align: center;
-    padding-bottom: 30px ;
+    padding-bottom: 30px;
 }
 
-.skills {  
+.skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: fit-content; 
+    height: fit-content;
     align-items: start;
     padding: 0px 20px;
     gap: 20px 20px;
@@ -211,10 +211,10 @@ ul {
 .skill {
     transition: 0.2s all ease;
     border-radius: 20px;
-    width: 300px;  
+    width: 300px;
     background-color: var(--medium);
-    border: 3px solid var(--light);  
-    padding: 5px;   
+    border: 3px solid var(--light);
+    padding: 5px;
     padding-bottom: 30px;
 }
 
@@ -224,9 +224,9 @@ ul {
     color: var(--light);
 }
 
-.skill:hover {  
+.skill:hover {
     transform: scale(1.1);
-    
+
 }
 
 .skillicon {
@@ -260,7 +260,7 @@ ul {
 
 }
 
-.part3 {    
+.part3 {
     margin-top: 80px;
     padding: 100px;
 }
@@ -268,8 +268,8 @@ ul {
 .project-cards {
     display: flex;
     justify-content: center;
-    align-items: center; 
-    gap: 30px;  
+    align-items: center;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
@@ -279,12 +279,12 @@ ul {
     width: 250px;
     transition: all 0.2s ease;
     border-radius: 20px;
-    height: 280px;  
+    height: 280px;
     background-image: url(images&videos/top10.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 5px;
-    display: flex;   
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding-bottom: 40px;
@@ -333,7 +333,8 @@ ul {
     justify-content: space-between;
 }
 
-.about h3 ,.social h3 {
+.about h3,
+.social h3 {
     color: var(--primary);
     font-size: 1.5rem;
 }
@@ -346,25 +347,25 @@ ul {
 }
 
 .social ul li a {
-   text-decoration: underline;
-   font-size: 1.2rem;
-   color: #000000;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    color: #000000;
 }
 
 .social ul {
     display: flex;
     width: fit-content;
-    gap: 20px;   
+    gap: 20px;
 }
 
 article {
-    background-color: var(--dark);   
+    background-color: var(--dark);
     border: var(--medium) 2px solid;
-    min-height: 90vh;   
+    min-height: 90vh;
 }
 
 .articleB {
-    background-color:var(--light);   
+    background-color: var(--light);
 }
 
 article div p {
@@ -374,4 +375,3 @@ article div p {
 article div h2 {
     color: var(--medium);
 }
-
